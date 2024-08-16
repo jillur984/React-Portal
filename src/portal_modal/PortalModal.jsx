@@ -8,7 +8,7 @@ const PortalModal = () => {
     const[showModal,setShowModal]=useState(false)
   return (
     <>
-  {error && <div className=" text-red-500 font-bold">{error}</div>}
+  {error && <div className=" text-red-500 font-bold underline">{error}</div>}
    <div className="relative border border-black mb-5 p-2 w-64 h-20 overflow-hidden">
     <button className="bg-black text-white border rounded-md" onClick={()=>setShowModal(true)} >
       Modal Using React Portal
